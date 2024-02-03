@@ -1,0 +1,73 @@
+@media screen and (max-width: 600px) {
+    #first{
+        width: 100vh;
+    }
+    .overlay img {
+        max-width: 540%;
+        max-height: 460%;
+        margin-left:10%;
+        margin-top: 10%;
+    }
+    #first header {
+        margin-left: 30px;
+    }
+    #first nav {
+        margin-right: -450px;
+    }
+
+
+    #second{
+        width: 100vh;
+    }
+    .content {
+        margin-top: -300px;
+    }
+    .content h3 {
+        font-size: 1.5em;
+        margin-left: 100px;
+    }
+    .content h3 span {
+        position: relative;
+        margin-top: -0.2em;
+    }
+    .content p {
+        margin-top: 40px;
+        margin-left: 200px;
+        margin-right: 100px;
+    }
+
+
+
+    #third{
+        width: 100vh;
+    }
+    .content2 h3 {
+        font-size: 1.5em;
+        margin-left: 100px;
+    }
+    .content2 h3 .drop-cap {
+        font-size: 5em;
+        float: left;
+        margin-right: -22px;
+        line-height: 1.2;
+    }
+    .content2 h3 span {
+        position: relative;
+        font-size: inherit;
+        font-weight: bold;
+        line-height: 1.6;
+    }
+    .content2 p {
+        color: black;
+        font-size: 1em;
+        margin-top: -60px;
+        margin-left:380px;
+        margin-right: 100px;
+    }
+    #third nav {
+        margin-top: -200px;
+    }
+    footer p {
+        margin-left: 200px;
+    }
+}
